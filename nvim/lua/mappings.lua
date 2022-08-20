@@ -1,5 +1,8 @@
 local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
+local opts = {
+    noremap = true,
+    silent = true
+}
 local M = {}
 
 M.lspsaga = function()
