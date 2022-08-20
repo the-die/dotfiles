@@ -1,5 +1,4 @@
 local cmp = require 'cmp'
-local icons = require 'plugins.icons'
 
 local has_words_before = function()
   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
@@ -14,9 +13,6 @@ cmp.setup {
     },
     formatting = {
         format = function(entry, vim_item)
-            -- load lspkind icons
-            vim_item.kind = icons[vim_item.kind]
-
             vim_item.menu = ({
                 nvim_lsp = '[LSP]',
                 buffer = '[BUF]'

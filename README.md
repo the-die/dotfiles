@@ -11,3 +11,4 @@ My development configurations
 * File Manager: [ranger](https://ranger.github.io/)
 * Shell Prompt: [starship](https://github.com/starship/starship)
 * Font: [nerd-fonts](https://www.nerdfonts.com/)
+* PDF Reader: [Zathura](https://pwmt.org/projects/zathura/)

@@ -3,8 +3,7 @@ local filetypes = require 'main'.lsp_filetypes
 return require 'packer'.startup(function(use)
     use {'wbthomason/packer.nvim'}
 
-    use {'kyazdani42/nvim-web-devicons'}
-
+    -- telescope.nvim
     use {
         'nvim-lua/plenary.nvim',
         after = 'bufferline.nvim'
@@ -95,7 +94,7 @@ return require 'packer'.startup(function(use)
 
     use {
         'nvim-lualine/lualine.nvim',
-        config = function() require 'plugins.eviline' end
+        config = function() require 'plugins.lualine' end
     }
 
     use {

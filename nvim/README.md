@@ -1,6 +1,6 @@
-# Neovim configurations
+# Neovim Configurations
 
-This my neovim confiurations
+This is my Neovim configurations
 
 ## Getting started using Lua in Neovim
 
