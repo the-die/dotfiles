@@ -13,3 +13,4 @@ My development configurations
 * Shell Prompt: [starship](https://github.com/starship/starship)
 * Font: [nerd-fonts](https://www.nerdfonts.com/)
 * PDF Reader: [Zathura](https://pwmt.org/projects/zathura/)
+* Search Tool: [ripgrep](https://github.com/BurntSushi/ripgrep)
