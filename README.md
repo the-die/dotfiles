@@ -13,4 +13,10 @@ My development configurations
 * Shell Prompt: [starship](https://github.com/starship/starship)
 * Font: [nerd-fonts](https://www.nerdfonts.com/)
 * PDF Reader: [Zathura](https://pwmt.org/projects/zathura/)
-* Search Tool: [ripgrep](https://github.com/BurntSushi/ripgrep)
+* Modern Unix
+  * grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
+  * ls: [exa](https://github.com/ogham/exa)
+  * cat: [bat](https://github.com/sharkdp/bat)
+  * find: [fd](https://github.com/sharkdp/fd)
+  * fuzzy finder: [fzf](https://github.com/junegunn/fzf)
+  * cd: [zoxide](https://github.com/ajeetdsouza/zoxide)
