@@ -16,6 +16,7 @@ This is my Neovim configurations
 * LSP:
   * Basic config: [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
   * Enhanced UI: [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+  * LSP Installer: [mason.nvim](https://github.com/williamboman/mason.nvim)
 * Diagnostic Info:
   * List for showing diagnostics: [trouble.nvim](https://github.com/folke/trouble.nvim)
   * Diagnostics highlight groups: [lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim)

@@ -3,6 +3,13 @@ local filetypes = require'main'.lsp_filetypes
 return require'packer'.startup(function(use)
     use {'wbthomason/packer.nvim'}
 
+    use {
+        'williamboman/mason.nvim',
+        config = function()
+            require'mason'.setup {}
+        end
+    }
+
     -- telescope.nvim
     use {
         'nvim-lua/plenary.nvim',
