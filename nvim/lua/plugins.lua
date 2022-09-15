@@ -92,7 +92,7 @@ return require'packer'.startup(function(use)
             require'mappings'.bufferline()
         end,
         config = function()
-            require'bufferline'.setup {}
+            require'plugins.bufferline'
         end
     }
 
