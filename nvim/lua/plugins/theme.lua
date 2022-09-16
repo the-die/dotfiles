@@ -1,26 +1,25 @@
-require("tokyonight").setup({
-    style = "storm",
-    transparent = true,
-    terminal_colors = true,
-    styles = {
-        comments = "italic",
-        keywords = "italic",
-        functions = "italic",
-        variables = "NONE",
-        sidebars = "dark",
-        floats = "dark"
-    },
+require("github-theme").setup({
+    theme_style = "dimmed",
+    function_style = "italic",
     sidebars = {"qf", "vista_kind", "terminal", "packer"},
-    day_brightness = 0.3,
-    hide_inactive_statusline = false,
-    dim_inactive = false,
-    lualine_bold = false,
 
-    on_colors = function(colors)
-    end,
+    colors = {
+        hint = "orange",
+        error = "#ff0000"
+    },
 
-    on_highlights = function(highlights, colors)
+    overrides = function(c)
+        return {
+            htmlTag = {
+                fg = c.red,
+                bg = "#282c34",
+                sp = c.hint,
+                style = "underline"
+            },
+            DiagnosticHint = {
+                link = "LspDiagnosticsDefaultHint"
+            },
+            TSField = {}
+        }
     end
 })
-
-vim.cmd [[colorscheme tokyonight]]

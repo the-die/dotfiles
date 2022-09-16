@@ -92,7 +92,7 @@ return require'packer'.startup(function(use)
             require'mappings'.bufferline()
         end,
         config = function()
-            require'plugins.bufferline'
+            require 'plugins.bufferline'
         end
     }
 
@@ -174,7 +174,7 @@ return require'packer'.startup(function(use)
     }
 
     use {
-        'folke/tokyonight.nvim',
+        'projekt0n/github-nvim-theme',
         config = function()
             require 'plugins.theme'
         end
