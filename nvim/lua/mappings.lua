@@ -6,12 +6,13 @@ local opts = {
 local M = {}
 
 M.lspsaga = function()
-    map('n', '<M-t>', '<CMD>lua require "lspsaga.floaterm".open_float_terminal()<CR>', opts)
+    map('n', '<M-d>', '<CMD>Lspsaga open_floaterm<CR>', opts)
     map('n', 'gh', '<CMD>Lspsaga lsp_finder<CR>', opts)
+    map('n', 'gd', '<CMD>Lspsaga peek_definition<CR>', opts)
     map('n', 'ga', '<CMD>Lspsaga code_action<CR>', opts)
     map('n', 'K', '<CMD>Lspsaga hover_doc<CR>', opts)
     map('n', 'gr', '<CMD>Lspsaga rename<CR>', opts)
-    map('t', '<M-d>', '<C-\\><C-n><CMD>lua require "lspsaga.floaterm".close_float_terminal()<CR>', opts)
+    map('t', '<M-d>', '<C-\\><C-n><CMD>Lspsaga close_floaterm<CR>', opts)
 end
 
 M.bufferline = function()
