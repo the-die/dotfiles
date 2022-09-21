@@ -20,3 +20,4 @@ My development configurations
   * find: [fd](https://github.com/sharkdp/fd)
   * fuzzy finder: [fzf](https://github.com/junegunn/fzf)
   * cd: [zoxide](https://github.com/ajeetdsouza/zoxide)
+  * syntax-highlighting pager: [delta](https://github.com/dandavison/delta)
