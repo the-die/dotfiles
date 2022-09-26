@@ -11,7 +11,7 @@ vim.o.cursorline = true
 vim.o.pumheight = 20
 vim.o.showmode = true
 vim.o.colorcolumn = '100'
-vim.o.wrap = false
+vim.o.wrap = true
 
 vim.o.clipboard = 'unnamedplus'
 vim.o.completeopt = 'menuone,noselect'

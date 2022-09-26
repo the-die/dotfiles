@@ -6,7 +6,7 @@ local opts = {
 local M = {}
 
 M.lspsaga = function()
-    map('n', '<M-d>', '<CMD>Lspsaga open_floaterm<CR>', opts)
+    map('n', '<M-t>', '<CMD>Lspsaga open_floaterm<CR>', opts)
     map('n', 'gh', '<CMD>Lspsaga lsp_finder<CR>', opts)
     map('n', 'gd', '<CMD>Lspsaga peek_definition<CR>', opts)
     map('n', 'ga', '<CMD>Lspsaga code_action<CR>', opts)

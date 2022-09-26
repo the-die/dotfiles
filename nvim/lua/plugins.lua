@@ -174,6 +174,13 @@ return require'packer'.startup(function(use)
     }
 
     use {
+        'lukas-reineke/indent-blankline.nvim',
+        config = function()
+            require 'plugins.indent'
+        end
+    }
+
+    use {
         'projekt0n/github-nvim-theme',
         config = function()
             require 'plugins.theme'
