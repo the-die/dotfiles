@@ -21,3 +21,4 @@ My development configurations
   * fuzzy finder: [fzf](https://github.com/junegunn/fzf)
   * cd: [zoxide](https://github.com/ajeetdsouza/zoxide)
   * syntax-highlighting pager: [delta](https://github.com/dandavison/delta)
+  * ps: [procs](https://github.com/dalance/procs)
