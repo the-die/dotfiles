@@ -16,6 +16,7 @@ My development configurations
 * Modern Unix
   * grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
   * ls: [exa](https://github.com/ogham/exa)
+  * ls: [lsd](https://github.com/Peltoche/lsd)
   * cat: [bat](https://github.com/sharkdp/bat)
   * find: [fd](https://github.com/sharkdp/fd)
   * fuzzy finder: [fzf](https://github.com/junegunn/fzf)
@@ -23,5 +24,8 @@ My development configurations
   * syntax-highlighting pager: [delta](https://github.com/dandavison/delta)
   * ps: [procs](https://github.com/dalance/procs)
   * du: [dust](https://github.com/bootandy/dust)
+  * du: [gdu](https://github.com/dundee/gdu)
   * df: [duf](https://github.com/muesli/duf)
   * history: [mcfly](https://github.com/cantino/mcfly)
+  * cloc: [scc](https://github.com/boyter/scc)
+  * hex viewer: [hexyl](https://github.com/sharkdp/hexyl)
