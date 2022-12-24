@@ -22,3 +22,6 @@ My development configurations
   * cd: [zoxide](https://github.com/ajeetdsouza/zoxide)
   * syntax-highlighting pager: [delta](https://github.com/dandavison/delta)
   * ps: [procs](https://github.com/dalance/procs)
+  * du: [dust](https://github.com/bootandy/dust)
+  * df: [duf](https://github.com/muesli/duf)
+  * history: [mcfly](https://github.com/cantino/mcfly)
