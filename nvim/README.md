@@ -23,16 +23,18 @@ This is my Neovim configurations
 * Signature Help: [lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim)
 * Completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 * Snippet: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-* Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 
+* Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 * File Explorer: [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 * Syntax Highlighting: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * Autopairs: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 * Terminal: [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
-* Format: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
+* Formatting:
+  * Formtter: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
+  * Indent: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 * Statusline: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 * LSP Status: [fidget.nvim](https://github.com/j-hui/fidget.nvim)
 * Bufferline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
-* Colorscheme: [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+* Colorscheme: [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme)
 
 ## Key Bingings
 
