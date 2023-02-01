@@ -50,7 +50,7 @@ return require'packer'.startup(function(use)
             require'mappings'.lspsaga()
         end,
         config = function()
-            require'lspsaga'.init_lsp_saga()
+            require'lspsaga'.setup {}
         end
     }
 
