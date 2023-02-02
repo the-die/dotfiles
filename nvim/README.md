@@ -31,6 +31,7 @@ This is my Neovim configurations
 * Bars and Lines:
   * Statusline: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   * Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+* Motion: [leap.nvim](https://github.com/ggandor/leap.nvim)
 * Editing Support: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 * Formatting:
   * Format Runner: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
