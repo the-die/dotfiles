@@ -1,4 +1,4 @@
-local filetypes = require'main'.lsp_filetyps
+local filetypes = require'main'.lsp_filetypes
 
 require'nvim-treesitter.configs'.setup {
     ensure_installed = filetypes,

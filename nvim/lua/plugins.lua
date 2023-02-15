@@ -3,6 +3,8 @@ local filetypes = require'main'.lsp_filetypes
 return require'packer'.startup(function(use)
     use {'wbthomason/packer.nvim'}
 
+    use {'nvim-tree/nvim-web-devicons'}
+
     use {
         'williamboman/mason.nvim',
         config = function()
@@ -10,7 +12,6 @@ return require'packer'.startup(function(use)
         end
     }
 
-    -- telescope.nvim
     use {
         'nvim-lua/plenary.nvim',
         after = 'bufferline.nvim'
@@ -25,7 +26,7 @@ return require'packer'.startup(function(use)
     }
 
     use {
-        'kyazdani42/nvim-tree.lua',
+        'nvim-tree/nvim-tree.lua',
         cmd = 'NvimTreeToggle',
         setup = function()
             require'mappings'.nvimtree()
@@ -45,13 +46,14 @@ return require'packer'.startup(function(use)
 
     use {
         'glepnir/lspsaga.nvim',
-        after = 'nvim-lspconfig',
+        branch = 'main',
         setup = function()
             require'mappings'.lspsaga()
         end,
         config = function()
             require'lspsaga'.setup {}
-        end
+        end,
+        requires = {{"nvim-tree/nvim-web-devicons"}, {"nvim-treesitter/nvim-treesitter"}}
     }
 
     use {
