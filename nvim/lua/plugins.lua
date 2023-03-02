@@ -190,7 +190,7 @@ return require'packer'.startup(function(use)
     }
 
     use {
-        'projekt0n/github-nvim-theme',
+        'EdenEast/nightfox.nvim',
         config = function()
             require 'plugins.theme'
         end
