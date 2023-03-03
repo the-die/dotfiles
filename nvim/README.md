@@ -23,7 +23,10 @@ This is my Neovim configurations
   * Diagnostics:
     * Diagnostics: [trouble.nvim](https://github.com/folke/trouble.nvim)
 * Completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-* Syntax: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* Syntax:
+  * nvim-treesitter: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+  * nvim-treesitter-textobjects: [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
+  * nvim-surround: [nvim-surround](https://github.com/kylechui/nvim-surround)
 * Snippet: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 * Fuzzy Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 * File Explorer: [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
@@ -33,7 +36,9 @@ This is my Neovim configurations
 * Icon: [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 * Neovim Lua Development: [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 * Motion: [leap.nvim](https://github.com/ggandor/leap.nvim)
-* Editing Support: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+* Editing Support:
+  * nvim-autopairs: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+  * nvim-treesitter-context: [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 * Formatting:
   * Format Runner: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
   * Indent: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)

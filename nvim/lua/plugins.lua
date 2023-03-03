@@ -144,7 +144,32 @@ return require'packer'.startup(function(use)
         run = ':TSUpdate',
         event = 'BufRead',
         config = function()
-            require 'plugins.treesitter'
+            require 'plugins.nvim-treesitter'
+        end
+    }
+
+    use {
+        "nvim-treesitter/nvim-treesitter-context",
+        after = "nvim-treesitter",
+        requires = "nvim-treesitter/nvim-treesitter",
+        config = function()
+            require 'plugins.nvim-treesitter-context'
+        end
+    }
+
+    use {
+        "nvim-treesitter/nvim-treesitter-textobjects",
+        after = "nvim-treesitter",
+        requires = "nvim-treesitter/nvim-treesitter"
+    }
+
+    use {
+        "kylechui/nvim-surround",
+        tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+        config = function()
+            require("nvim-surround").setup({
+                -- Configuration here, or leave empty to use defaults
+            })
         end
     }
 
