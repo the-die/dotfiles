@@ -149,14 +149,6 @@ return require'packer'.startup(function(use)
     }
 
     use {
-        'folke/lsp-colors.nvim',
-        after = 'nvim-lspconfig',
-        config = function()
-            require'lsp-colors'.setup {}
-        end
-    }
-
-    use {
         'windwp/nvim-autopairs',
         after = 'nvim-cmp',
         config = function()

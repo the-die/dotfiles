@@ -22,7 +22,6 @@ This is my Neovim configurations
     * LSP Installer: [mason.nvim](https://github.com/williamboman/mason.nvim)
   * Diagnostics:
     * Diagnostics: [trouble.nvim](https://github.com/folke/trouble.nvim)
-    * LSP Diagnostics Highlight Groups: [lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim)
 * Completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 * Syntax: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * Snippet: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
