@@ -31,12 +31,14 @@ This is my Neovim configurations
 * Bars and Lines:
   * Statusline: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   * Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+* Icon: [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+* Neovim Lua Development: [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 * Motion: [leap.nvim](https://github.com/ggandor/leap.nvim)
 * Editing Support: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 * Formatting:
   * Format Runner: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
   * Indent: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-* Colorscheme: [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme)
+* Colorscheme: [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
 ## Key Bingings
 
