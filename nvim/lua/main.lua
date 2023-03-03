@@ -36,5 +36,6 @@ vim.o.writebackup = false
 vim.o.swapfile = false
 
 return {
-    lsp_filetypes = {'c', 'cpp', 'rust', 'python', 'markdown', 'bash', 'cmake', 'gitignore', 'lua', 'verilog'}
+    lsp_filetypes = {'c', 'cpp', 'rust', 'python', 'markdown', 'bash', 'cmake', 'gitignore', 'lua', 'verilog', 'make',
+                     'json'}
 }
