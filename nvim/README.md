@@ -49,15 +49,18 @@ This is my Neovim configurations
 | Key         | Action                                    |
 | ----------- | ----------------------------------------- |
 | Meta + e    | Toggle file explorer                      |
-| Meta + t    | Open terminal(floating)                   |
 | Meta + f    | Format code                               |
 | Meta + n    | Goto next tab                             |
 | Meta + p    | Goto previous tab                         |
 | Meta + d    | Close current tab/terminal                |
-| gh          | Show all references and declaration       |
+| gh          | LSP finder                                |
+| Leader + ca | Code action                               |
 | gr          | Rename                                    |
-| ga          | Code Actions                              |
-| K           | Hover                                     |
+| gd          | Peek definition                           |
+| gt          | Peek type definition                      |
+| Leader + o  | Toggle outline                            |
+| K           | Hover Doc                                 |
+| Meta + t    | Open/Close floating terminal              |
 | Leader + xx | Show all diagnostic messages              |
 | Leader + ff | Search files                              |
 | Leader + fg | Live grep                                 |
