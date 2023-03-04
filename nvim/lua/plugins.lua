@@ -107,8 +107,18 @@ return require'packer'.startup(function(use)
     }
 
     use {
-        'hrsh7th/cmp-nvim-lsp',
+        'L3MON4D3/LuaSnip',
         after = 'nvim-cmp'
+    }
+
+    use {
+        'saadparwaiz1/cmp_luasnip',
+        after = 'LuaSnip'
+    }
+
+    use {
+        'hrsh7th/cmp-nvim-lsp',
+        after = 'cmp_luasnip'
     }
 
     use {
