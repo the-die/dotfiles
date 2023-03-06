@@ -84,7 +84,7 @@ return require'packer'.startup(function(use)
         'ray-x/lsp_signature.nvim',
         after = 'lspsaga.nvim',
         config = function()
-            require 'plugins.signature'
+            require 'plugins.lsp_signature'
         end
     }
 
