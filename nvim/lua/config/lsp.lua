@@ -1,4 +1,4 @@
-local lspconfig = require 'lspconfig';
+local lspconfig = require('lspconfig')
 local signs = {
     Error = "E",
     Warn = "W",

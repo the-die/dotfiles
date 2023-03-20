@@ -35,18 +35,14 @@ return {
   {
     'j-hui/fidget.nvim',
     config = function()
-      require('fidget').setup({
-        text = {
-          spinner = 'dots_negative'
-        }
-      })
+      require('fidget').setup({})
     end
   },
 
   {
     'williamboman/mason.nvim',
     config = function()
-      require('mason').setup()
+      require('mason').setup({})
     end
   },
 
@@ -57,7 +53,8 @@ return {
     end,
     config = function()
       require('config.trouble')
-    end
+    end,
+    dependencies = 'nvim-tree/nvim-web-devicons'
   },
 
   {
@@ -65,7 +62,13 @@ return {
     event = 'InsertEnter',
     config = function()
       require('config.cmp')
-    end
+    end,
+    dependencies = {
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-buffer',
+      'hrsh7th/cmp-path',
+      'saadparwaiz1/cmp_luasnip'
+    }
   },
 
   {'hrsh7th/cmp-nvim-lsp'},
@@ -78,7 +81,7 @@ return {
     'nvim-treesitter/nvim-treesitter',
     ft = filetypes,
     build = ':TSUpdate',
-    event = 'BufRead',
+    event = {'BufReadPost', 'BufNewFile'},
     config = function()
       require('config.nvim-treesitter')
     end
@@ -124,6 +127,7 @@ return {
 
   {
     'nvim-lualine/lualine.nvim',
+    dependencies = {'nvim-tree/nvim-web-devicons'},
     config = function()
       require('config.lualine')
     end
@@ -131,6 +135,7 @@ return {
 
   {
     'akinsho/bufferline.nvim',
+    dependencies = {'nvim-tree/nvim-web-devicons'},
     init = function()
       require('mappings').bufferline()
     end,
@@ -165,7 +170,6 @@ return {
 
   {
     'nvim-treesitter/nvim-treesitter-context',
-    dependencies = 'nvim-treesitter/nvim-treesitter',
     config = function()
       require('config.nvim-treesitter-context')
     end
