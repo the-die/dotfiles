@@ -6,7 +6,7 @@ return {
     ft = filetypes,
     config = function()
       require('config.lsp')
-    end,
+    end
   },
 
   {
@@ -21,15 +21,15 @@ return {
     dependencies = {
       {'nvim-tree/nvim-web-devicons'},
       -- Please make sure you install markdown and markdown_inline parser
-      {'nvim-treesitter/nvim-treesitter'},
-    },
+      {'nvim-treesitter/nvim-treesitter'}
+    }
   },
 
   {
     'ray-x/lsp_signature.nvim',
     config = function()
       require('config.lsp_signature')
-    end,
+    end
   },
 
   {
@@ -37,17 +37,17 @@ return {
     config = function()
       require('fidget').setup({
         text = {
-          spinner = 'dots_negative',
-        },
+          spinner = 'dots_negative'
+        }
       })
-    end,
+    end
   },
 
   {
     'williamboman/mason.nvim',
     config = function()
       require('mason').setup()
-    end,
+    end
   },
 
   {
@@ -57,7 +57,7 @@ return {
     end,
     config = function()
       require('config.trouble')
-    end,
+    end
   },
 
   {
@@ -65,14 +65,14 @@ return {
     event = 'InsertEnter',
     config = function()
       require('config.cmp')
-    end,
+    end
   },
 
-  {'hrsh7th/cmp-nvim-lsp',},
+  {'hrsh7th/cmp-nvim-lsp'},
 
-  {'hrsh7th/cmp-path',},
+  {'hrsh7th/cmp-path'},
 
-  {'hrsh7th/cmp-buffer',},
+  {'hrsh7th/cmp-buffer'},
 
   {
     'nvim-treesitter/nvim-treesitter',
@@ -81,12 +81,12 @@ return {
     event = 'BufRead',
     config = function()
       require('config.nvim-treesitter')
-    end,
+    end
   },
 
   {
     'nvim-treesitter/nvim-treesitter-textobjects',
-    dependencies = 'nvim-treesitter/nvim-treesitter',
+    dependencies = 'nvim-treesitter/nvim-treesitter'
   },
 
   {
@@ -96,20 +96,20 @@ return {
       require('nvim-surround').setup({
         -- Configuration here, or leave empty to  defaults
       })
-    end,
+    end
   },
 
 
-  {'L3MON4D3/LuaSnip',},
+  {'L3MON4D3/LuaSnip'},
 
-  {'saadparwaiz1/cmp_luasnip',},
+  {'saadparwaiz1/cmp_luasnip'},
 
   {
     'nvim-telescope/telescope.nvim',
-    dependencies = {'nvim-lua/plenary.nvim',},
+    dependencies = {'nvim-lua/plenary.nvim'},
     init = function()
       require('mappings').telescope()
-    end,
+    end
   },
 
   {
@@ -119,14 +119,14 @@ return {
     end,
     init = function()
       require('mappings').nvimtree()
-    end,
+    end
   },
 
   {
     'nvim-lualine/lualine.nvim',
     config = function()
       require('config.lualine')
-    end,
+    end
   },
 
   {
@@ -136,31 +136,31 @@ return {
     end,
     config = function()
       require('config.bufferline')
-    end,
+    end
   },
 
   {
     'nvim-tree/nvim-web-devicons',
-    lazy = true,
+    lazy = true
   },
 
   {
     'nvim-lua/plenary.nvim',
-    lazy = true,
+    lazy = true
   },
 
   {
     'ggandor/leap.nvim',
     config = function()
       require('leap').add_default_mappings()
-    end,
+    end
   },
 
   {
     'windwp/nvim-autopairs',
     config = function()
       require('nvim-autopairs').setup({})
-    end,
+    end
   },
 
   {
@@ -168,7 +168,7 @@ return {
     dependencies = 'nvim-treesitter/nvim-treesitter',
     config = function()
       require('config.nvim-treesitter-context')
-    end,
+    end
   },
 
   {
@@ -180,7 +180,7 @@ return {
     end,
     config = function()
       require('config.format')
-    end,
+    end
   },
 
   {
@@ -188,7 +188,7 @@ return {
     lazy = false,
     config = function()
       require('config.indent')
-    end,
+    end
   },
 
   {
@@ -196,6 +196,6 @@ return {
     lazy = false,
     config = function()
       require('config.theme')
-    end,
-  },
+    end
+  }
 }

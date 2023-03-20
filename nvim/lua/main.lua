@@ -38,6 +38,6 @@ vim.o.swapfile = false
 return {
   lsp_filetypes = {
     'c', 'cpp', 'rust', 'python', 'lua', 'go', 'bash', 'make', 'cmake', 'verilog', 'markdown',
-    'markdown_inline', 'gitignore', 'json', 'toml', 'yaml',
+    'markdown_inline', 'gitignore', 'json', 'toml', 'yaml'
   }
 }
