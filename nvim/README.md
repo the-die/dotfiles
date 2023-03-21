@@ -66,3 +66,4 @@ This is my Neovim configurations
 | Leader + ff | Search files                              |
 | Leader + fg | Live grep                                 |
 | Leader + fb | Search buffer                             |
+| Leader + tb | Blame current line                        |
