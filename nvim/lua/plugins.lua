@@ -154,6 +154,13 @@ return {
   },
 
   {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('config.gitsigns')
+    end
+  },
+
+  {
     'ggandor/leap.nvim',
     config = function()
       require('leap').add_default_mappings()

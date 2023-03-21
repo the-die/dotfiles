@@ -35,6 +35,7 @@ This is my Neovim configurations
   * Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 * Icon: [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 * Neovim Lua Development: [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+* Git: [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 * Motion: [leap.nvim](https://github.com/ggandor/leap.nvim)
 * Editing Support:
   * nvim-autopairs: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
