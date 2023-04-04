@@ -7,7 +7,7 @@ My development configurations
 * Terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
 * Terminal Multiplexer: [tmux](https://github.com/tmux/tmux)
 * Proxy: [v2ray](https://github.com/v2fly/v2ray-core) [proxychains](https://github.com/haad/proxychains)
-* Editor: [neovim](http://neovim.org/)
+* Editor: [neovim](http://neovim.org/) [helix](https://helix-editor.com/)
 * Shell: [fish](https://fishshell.com/)
 * File Manager: [ranger](https://ranger.github.io/)
 * Shell Prompt: [starship](https://github.com/starship/starship)
