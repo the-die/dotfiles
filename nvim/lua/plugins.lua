@@ -10,7 +10,7 @@ return {
   },
 
   {
-    'glepnir/lspsaga.nvim',
+    'nvimdev/lspsaga.nvim',
     event = 'BufRead',
     init = function()
       require('mappings').lspsaga()

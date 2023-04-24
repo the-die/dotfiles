@@ -15,7 +15,7 @@ This is my Neovim configurations
 * Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 * LSP:
   * LSP Configurations: [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-  * LSP UI: [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+  * LSP UI: [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim)
   * LSP Signature: [lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim)
   * LSP Progress: [fidget.nvim](https://github.com/j-hui/fidget.nvim)
   * LSP Installer:
@@ -29,7 +29,7 @@ This is my Neovim configurations
   * nvim-surround: [nvim-surround](https://github.com/kylechui/nvim-surround)
 * Snippet: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 * Fuzzy Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-* File Explorer: [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+* File Explorer: [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 * Bars and Lines:
   * Statusline: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   * Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
