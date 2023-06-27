@@ -6,7 +6,7 @@ My development configurations
 
 * Terminal: [kitty](https://sw.kovidgoyal.net/kitty/) [alacritty](https://alacritty.org/)
 * Terminal Multiplexer: [tmux](https://github.com/tmux/tmux)
-* Proxy: [v2ray](https://github.com/v2fly/v2ray-core) [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
+* Proxy: [clash](https://github.com/Dreamacro/clash) [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
 * Editor: [neovim](http://neovim.org/) [helix](https://helix-editor.com/)
 * Shell: [fish](https://fishshell.com/) [zsh](https://www.zsh.org/) [ohmyzsh](https://ohmyz.sh/)
 * File Manager: [ranger](https://ranger.github.io/)
