@@ -45,7 +45,7 @@ This is my Neovim configurations
   * Indent: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 * Colorscheme: [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
-## Key Bingings
+## Key Bindings
 
 | Key         | Action                                    |
 | ----------- | ----------------------------------------- |
