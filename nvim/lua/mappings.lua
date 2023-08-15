@@ -5,19 +5,6 @@ local opts = {
 }
 local M = {}
 
-M.lspsaga = function()
-  map('n', 'gh', '<CMD>Lspsaga lsp_finder<CR>', opts)
-  map('n', '<leader>ca', '<CMD>Lspsaga code_action<CR>', opts)
-  map('v', '<leader>ca', '<CMD>Lspsaga code_action<CR>', opts)
-  map('n', 'gr', '<CMD>Lspsaga rename<CR>', opts)
-  map('n', 'gd', '<CMD>Lspsaga peek_definition<CR>', opts)
-  map('n', 'gt', '<cmd>Lspsaga peek_type_definition<CR>', opts)
-  map('n', '<leader>o', '<cmd>Lspsaga outline<CR>', opts)
-  map('n', 'K', '<cmd>Lspsaga hover_doc<CR>', opts)
-  map('n', '<M-t>', '<CMD>Lspsaga term_toggle<CR>', opts)
-  map('t', '<M-t>', '<CMD>Lspsaga term_toggle<CR>', opts)
-end
-
 M.bufferline = function()
   map('n', '<M-p>', '<CMD>BufferLineCyclePrev<CR>', opts)
   map('n', '<M-n>', '<CMD>BufferLineCycleNext<CR>', opts)

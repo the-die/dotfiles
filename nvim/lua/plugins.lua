@@ -10,22 +10,6 @@ return {
   },
 
   {
-    'nvimdev/lspsaga.nvim',
-    event = 'BufRead',
-    init = function()
-      require('mappings').lspsaga()
-    end,
-    config = function()
-      require('lspsaga').setup({})
-    end,
-    dependencies = {
-      {'nvim-tree/nvim-web-devicons'},
-      -- Please make sure you install markdown and markdown_inline parser
-      {'nvim-treesitter/nvim-treesitter'}
-    }
-  },
-
-  {
     'ray-x/lsp_signature.nvim',
     config = function()
       require('config.lsp_signature')
