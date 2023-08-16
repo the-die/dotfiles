@@ -15,7 +15,6 @@ This is my Neovim configurations
 * Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 * LSP:
   * LSP Configurations: [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-  * LSP UI: [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim)
   * LSP Signature: [lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim)
   * LSP Progress: [fidget.nvim](https://github.com/j-hui/fidget.nvim)
   * LSP Installer:
@@ -54,14 +53,14 @@ This is my Neovim configurations
 | Meta + n    | Goto next tab                             |
 | Meta + p    | Goto previous tab                         |
 | Meta + d    | Close current tab/terminal                |
-| gh          | LSP finder                                |
-| Leader + ca | Code action                               |
-| gr          | Rename                                    |
-| gd          | Peek definition                           |
-| gt          | Peek type definition                      |
-| Leader + o  | Toggle outline                            |
-| K           | Hover Doc                                 |
-| Meta + t    | Open/Close floating terminal              |
+| gD          | Declaration                               |
+| gd          | Definition                                |
+| K           | Hover                                     |
+| gi          | Implementation                            |
+| Space + D   | Type definition                           |
+| Space + rn  | Rename                                    |
+| Space + ca  | Code action                               |
+| gr          | References                                |
 | Leader + xx | Show all diagnostic messages              |
 | Leader + ff | Search files                              |
 | Leader + fg | Live grep                                 |
