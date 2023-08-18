@@ -52,7 +52,7 @@ This is my Neovim configurations
 | Meta + f    | Format code                               |
 | Meta + n    | Goto next tab                             |
 | Meta + p    | Goto previous tab                         |
-| Meta + d    | Close current tab/terminal                |
+| Meta + d    | Close current tab                         |
 | gD          | Declaration                               |
 | gd          | Definition                                |
 | K           | Hover                                     |

@@ -9,6 +9,7 @@ M.bufferline = function()
   map('n', '<M-p>', '<CMD>BufferLineCyclePrev<CR>', opts)
   map('n', '<M-n>', '<CMD>BufferLineCycleNext<CR>', opts)
   map('n', '<M-d>', '<CMD>bwipe<CR>', opts)
+  map('n', '<M-D>', '<CMD>BufferLinePickClose<CR>', opts)
 end
 
 M.nvimtree = function()
