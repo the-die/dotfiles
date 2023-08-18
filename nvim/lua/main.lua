@@ -1,6 +1,6 @@
 -- https://neovim.io/doc/user/options.html
-vim.cmd 'syntax enable'
-vim.cmd 'filetype indent on'
+vim.cmd('syntax enable')
+vim.cmd('filetype indent on')
 
 vim.o.number = true
 vim.o.ruler = true
@@ -37,7 +37,21 @@ vim.o.swapfile = false
 
 return {
   lsp_filetypes = {
-    'c', 'cpp', 'rust', 'python', 'lua', 'go', 'bash', 'make', 'cmake', 'verilog', 'markdown',
-    'markdown_inline', 'gitignore', 'json', 'toml', 'yaml'
-  }
+    'c',
+    'cpp',
+    'rust',
+    'python',
+    'lua',
+    'go',
+    'bash',
+    'make',
+    'cmake',
+    'verilog',
+    'markdown',
+    'markdown_inline',
+    'gitignore',
+    'json',
+    'toml',
+    'yaml',
+  },
 }

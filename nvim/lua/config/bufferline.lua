@@ -3,13 +3,13 @@ require('bufferline').setup({
     mode = 'buffers', -- set to 'tabs' to only show tabpages instead
     themable = true, -- allows highlight groups to be overriden i.e. sets highlights as default
     numbers = 'ordinal',
-    close_command = 'bdelete! %d',       -- can be a string | function, see "Mouse actions"
+    close_command = 'bdelete! %d', -- can be a string | function, see "Mouse actions"
     right_mouse_command = 'bdelete! %d', -- can be a string | function, see "Mouse actions"
-    left_mouse_command = 'buffer %d',    -- can be a string | function, see "Mouse actions"
-    middle_mouse_command = nil,          -- can be a string | function, see "Mouse actions"
+    left_mouse_command = 'buffer %d', -- can be a string | function, see "Mouse actions"
+    middle_mouse_command = nil, -- can be a string | function, see "Mouse actions"
     indicator = {
       icon = '*', -- this should be omitted if indicator style is not 'icon'
-      style = 'icon'
+      style = 'icon',
     },
     buffer_close_icon = '[x]',
     modified_icon = 'M',
@@ -26,7 +26,7 @@ require('bufferline').setup({
       filetype = 'NvimTree',
       text = 'File Explorer',
       text_align = 'left',
-      separator = true
+      separator = true,
     },
     color_icons = false,
     show_buffer_icons = false,
@@ -35,13 +35,13 @@ require('bufferline').setup({
     show_tab_indicators = true,
     show_duplicate_prefix = true,
     persist_buffer_sort = true,
-    separator_style = {'|', '|'},
+    separator_style = { '|', '|' },
     enforce_regular_tabs = false,
     always_show_bufferline = true,
     hover = {
-        enabled = true,
-        delay = 200,
-        reveal = {'close'}
-    }
-  }
+      enabled = true,
+      delay = 200,
+      reveal = { 'close' },
+    },
+  },
 })

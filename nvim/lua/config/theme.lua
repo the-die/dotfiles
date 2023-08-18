@@ -14,8 +14,8 @@ require('nightfox').setup({
       severity = {
         protan = 0, -- Severity [0,1] for protan (red)
         deutan = 0, -- Severity [0,1] for deutan (green)
-        tritan = 0 -- Severity [0,1] for tritan (blue)
-      }
+        tritan = 0, -- Severity [0,1] for tritan (blue)
+      },
     },
     styles = { -- Style to be applied to different syntax groups
       comments = 'NONE', -- Value is any valid attr-list value `:help attr-list`
@@ -27,20 +27,20 @@ require('nightfox').setup({
       operators = 'NONE',
       strings = 'NONE',
       types = 'NONE',
-      variables = 'NONE'
+      variables = 'NONE',
     },
     inverse = { -- Inverse highlight for different types
       match_paren = false,
       visual = false,
-      search = false
+      search = false,
     },
     modules = { -- List of various plugins and additional options
       -- ...
-    }
+    },
   },
   palettes = {},
   specs = {},
-  groups = {}
+  groups = {},
 })
 
 -- setup must be called before loading

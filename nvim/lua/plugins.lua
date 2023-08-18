@@ -6,30 +6,30 @@ return {
     ft = filetypes,
     config = function()
       require('config.lsp')
-    end
+    end,
   },
 
   {
     'ray-x/lsp_signature.nvim',
     config = function()
       require('config.lsp_signature')
-    end
+    end,
   },
 
   {
     'j-hui/fidget.nvim',
-    tag = "legacy",
-    event = "LspAttach",
+    tag = 'legacy',
+    event = 'LspAttach',
     config = function()
       require('config.fidget')
-    end
+    end,
   },
 
   {
     'williamboman/mason.nvim',
     config = function()
       require('mason').setup({})
-    end
+    end,
   },
 
   {
@@ -40,7 +40,7 @@ return {
     config = function()
       require('config.trouble')
     end,
-    dependencies = 'nvim-tree/nvim-web-devicons'
+    dependencies = 'nvim-tree/nvim-web-devicons',
   },
 
   {
@@ -53,29 +53,29 @@ return {
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-buffer',
       'hrsh7th/cmp-path',
-      'saadparwaiz1/cmp_luasnip'
-    }
+      'saadparwaiz1/cmp_luasnip',
+    },
   },
 
-  {'hrsh7th/cmp-nvim-lsp'},
+  { 'hrsh7th/cmp-nvim-lsp' },
 
-  {'hrsh7th/cmp-path'},
+  { 'hrsh7th/cmp-path' },
 
-  {'hrsh7th/cmp-buffer'},
+  { 'hrsh7th/cmp-buffer' },
 
   {
     'nvim-treesitter/nvim-treesitter',
     ft = filetypes,
     build = ':TSUpdate',
-    event = {'BufReadPost', 'BufNewFile'},
+    event = { 'BufReadPost', 'BufNewFile' },
     config = function()
       require('config.nvim-treesitter')
-    end
+    end,
   },
 
   {
     'nvim-treesitter/nvim-treesitter-textobjects',
-    dependencies = 'nvim-treesitter/nvim-treesitter'
+    dependencies = 'nvim-treesitter/nvim-treesitter',
   },
 
   {
@@ -85,19 +85,19 @@ return {
       require('nvim-surround').setup({
         -- Configuration here, or leave empty to  defaults
       })
-    end
+    end,
   },
 
-  {'L3MON4D3/LuaSnip'},
+  { 'L3MON4D3/LuaSnip' },
 
-  {'saadparwaiz1/cmp_luasnip'},
+  { 'saadparwaiz1/cmp_luasnip' },
 
   {
     'nvim-telescope/telescope.nvim',
-    dependencies = {'nvim-lua/plenary.nvim'},
+    dependencies = { 'nvim-lua/plenary.nvim' },
     init = function()
       require('mappings').telescope()
-    end
+    end,
   },
 
   {
@@ -107,64 +107,64 @@ return {
     end,
     init = function()
       require('mappings').nvimtree()
-    end
+    end,
   },
 
   {
     'nvim-lualine/lualine.nvim',
-    dependencies = {'nvim-tree/nvim-web-devicons'},
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
     config = function()
       require('config.lualine')
-    end
+    end,
   },
 
   {
     'akinsho/bufferline.nvim',
-    dependencies = {'nvim-tree/nvim-web-devicons'},
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
     init = function()
       require('mappings').bufferline()
     end,
     config = function()
       require('config.bufferline')
-    end
+    end,
   },
 
   {
     'nvim-tree/nvim-web-devicons',
-    lazy = true
+    lazy = true,
   },
 
   {
     'nvim-lua/plenary.nvim',
-    lazy = true
+    lazy = true,
   },
 
   {
     'lewis6991/gitsigns.nvim',
     config = function()
       require('config.gitsigns')
-    end
+    end,
   },
 
   {
     'ggandor/leap.nvim',
     config = function()
       require('leap').add_default_mappings()
-    end
+    end,
   },
 
   {
     'windwp/nvim-autopairs',
     config = function()
       require('nvim-autopairs').setup({})
-    end
+    end,
   },
 
   {
     'nvim-treesitter/nvim-treesitter-context',
     config = function()
       require('config.nvim-treesitter-context')
-    end
+    end,
   },
 
   {
@@ -176,7 +176,7 @@ return {
     end,
     config = function()
       require('config.format')
-    end
+    end,
   },
 
   {
@@ -184,7 +184,7 @@ return {
     lazy = false,
     config = function()
       require('config.indent')
-    end
+    end,
   },
 
   {
@@ -193,6 +193,6 @@ return {
     priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       require('config.theme')
-    end
-  }
+    end,
+  },
 }
