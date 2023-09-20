@@ -50,6 +50,8 @@ return {
     'markdown',
     'markdown_inline',
     'gitignore',
+    'gitcommit',
+    'diff',
     'json',
     'toml',
     'yaml',
