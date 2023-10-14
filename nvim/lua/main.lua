@@ -35,6 +35,10 @@ vim.o.backup = false
 vim.o.writebackup = false
 vim.o.swapfile = false
 
+vim.opt.list = true
+vim.opt.listchars:append('space:⋅')
+vim.opt.listchars:append('eol:↴')
+
 return {
   lsp_filetypes = {
     'c',

@@ -39,7 +39,6 @@ This is my Neovim configurations
   * nvim-treesitter-context: [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 * Formatting:
   * Format Runner: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
-  * Indent: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 * Colorscheme: [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
 ## Key Bindings

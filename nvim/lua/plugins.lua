@@ -215,14 +215,6 @@ return {
   },
 
   {
-    'lukas-reineke/indent-blankline.nvim',
-    lazy = false,
-    config = function()
-      require('config.indent')
-    end,
-  },
-
-  {
     'EdenEast/nightfox.nvim',
     lazy = false,
     priority = 1000, -- make sure to load this before all the other start plugins
