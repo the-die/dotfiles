@@ -8,7 +8,7 @@ local M = {}
 M.bufferline = function()
   map('n', '<M-p>', '<CMD>BufferLineCyclePrev<CR>', opts)
   map('n', '<M-n>', '<CMD>BufferLineCycleNext<CR>', opts)
-  map('n', '<M-d>', '<CMD>bwipe<CR>', opts)
+  map('n', '<M-d>', '<CMD>bp|bd #<CR>', opts)
   map('n', '<M-D>', '<CMD>BufferLinePickClose<CR>', opts)
   map('n', '<M-1>', '<CMD>BufferLineGoToBuffer 1<CR>', opts)
   map('n', '<M-2>', '<CMD>BufferLineGoToBuffer 2<CR>', opts)
