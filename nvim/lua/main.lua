@@ -1,6 +1,6 @@
 -- https://neovim.io/doc/user/options.html
-vim.cmd('syntax enable')
-vim.cmd('filetype indent on')
+vim.syntax = 'on'
+vim.filetype.indent = 'on'
 
 vim.o.number = true
 vim.o.ruler = true
