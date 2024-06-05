@@ -25,10 +25,6 @@ M.nvimtree = function()
   map('n', '<M-e>', '<CMD>NvimTreeToggle<CR>', opts)
 end
 
-M.trouble = function()
-  map('n', '<LEADER>xx', '<CMD>TroubleToggle<CR>', opts)
-end
-
 M.telescope = function()
   map('n', '<LEADER>ff', '<CMD>Telescope find_files<CR>', opts)
   map('n', '<LEADER>fg', '<CMD>Telescope live_grep<CR>', opts)
