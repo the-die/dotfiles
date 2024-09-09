@@ -9,6 +9,7 @@ My development configurations
 * Proxy: [v2ray](https://github.com/v2fly/v2ray-core) [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
 * Editor: [neovim](http://neovim.org/) [helix](https://helix-editor.com/)
 * Shell: [fish](https://fishshell.com/) [zsh](https://www.zsh.org/) [ohmyzsh](https://ohmyz.sh/)
+* Debug: [cgdb](https://cgdb.github.io/) [GEF](https://github.com/hugsy/gef)
 * File Manager: [ranger](https://ranger.github.io/)
 * Shell Prompt: [starship](https://github.com/starship/starship)
 * Font: [nerd-fonts](https://www.nerdfonts.com/)
