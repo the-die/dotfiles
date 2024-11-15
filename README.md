@@ -4,16 +4,17 @@ My development configurations
 
 ## Specifications
 
-* Terminal: [kitty](https://sw.kovidgoyal.net/kitty/) [alacritty](https://alacritty.org/)
+* Terminal: [kitty](https://sw.kovidgoyal.net/kitty) [alacritty](https://alacritty.org)
 * Terminal Multiplexer: [tmux](https://github.com/tmux/tmux)
 * Proxy: [v2ray](https://github.com/v2fly/v2ray-core) [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
-* Editor: [neovim](http://neovim.org/) [helix](https://helix-editor.com/)
-* Shell: [fish](https://fishshell.com/) [zsh](https://www.zsh.org/) [ohmyzsh](https://ohmyz.sh/)
-* Debug: [cgdb](https://cgdb.github.io/) [GEF](https://github.com/hugsy/gef)
-* File Manager: [ranger](https://ranger.github.io/)
+* Editor: [neovim](http://neovim.org) [helix](https://helix-editor.com)
+* Shell: [fish](https://fishshell.com) [zsh](https://www.zsh.org) [ohmyzsh](https://ohmyz.sh)
+* Debug: [cgdb](https://cgdb.github.io) [GEF](https://github.com/hugsy/gef)
+* File Manager: [ranger](https://ranger.github.io)
 * Shell Prompt: [starship](https://github.com/starship/starship)
-* Font: [nerd-fonts](https://www.nerdfonts.com/)
-* PDF Reader: [Zathura](https://pwmt.org/projects/zathura/)
+* Font: [nerd-fonts](https://www.nerdfonts.com)
+* PDF Reader: [Zathura](https://pwmt.org/projects/zathura)
+* HW Monitor: [s-tui](https://github.com/amanusk/s-tui)
 * Modern Unix
   * grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
   * ls: [exa](https://github.com/ogham/exa)
