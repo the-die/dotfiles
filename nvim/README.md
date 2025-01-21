@@ -18,7 +18,7 @@ This is my Neovim configurations
   * LSP Progress: [fidget.nvim](https://github.com/j-hui/fidget.nvim)
   * Diagnostics:
     * Diagnostics: [trouble.nvim](https://github.com/folke/trouble.nvim)
-* Completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+* Completion: [blink.cmp](https://github.com/Saghen/blink.cmp)
 * Syntax:
   * nvim-treesitter: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
   * nvim-treesitter-textobjects: [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
