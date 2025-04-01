@@ -14,7 +14,7 @@ My development configurations
 * Shell Prompt: [starship](https://github.com/starship/starship)
 * Font: [nerd-fonts](https://www.nerdfonts.com)
 * PDF Reader: [Zathura](https://pwmt.org/projects/zathura)
-* HW Monitor: [Glances](hhttps://github.com/nicolargo/glances)
+* HW Monitor: [Glances](https://github.com/nicolargo/glances)
 * Modern Unix
   * grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
   * ls: [exa](https://github.com/ogham/exa)
