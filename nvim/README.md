@@ -23,7 +23,6 @@ This is my Neovim configurations
   * nvim-treesitter: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
   * nvim-treesitter-textobjects: [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
   * nvim-surround: [nvim-surround](https://github.com/kylechui/nvim-surround)
-* Snippet: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 * Fuzzy Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 * File Explorer: [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 * Bars and Lines:
