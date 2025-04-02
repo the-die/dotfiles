@@ -15,6 +15,7 @@ My development configurations
 * Font: [nerd-fonts](https://www.nerdfonts.com)
 * PDF Reader: [Zathura](https://pwmt.org/projects/zathura)
 * HW Monitor: [Glances](https://github.com/nicolargo/glances)
+* Bootable USB:[Ventoy](https://github.com/ventoy/Ventoy)
 * Modern Unix
   * grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
   * ls: [exa](https://github.com/ogham/exa)
