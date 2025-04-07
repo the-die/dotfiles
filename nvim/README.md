@@ -48,14 +48,13 @@ This is my Neovim configurations
 | Meta + n    | Goto next tab                             |
 | Meta + p    | Goto previous tab                         |
 | Meta + d    | Close current tab                         |
-| gD          | Declaration                               |
-| gd          | Definition                                |
+| Ctrl + ]    | Go to definition                          |
+| Ctrl + T    | Go to previous                            |
 | K           | Hover                                     |
-| gi          | Implementation                            |
-| Space + D   | Type definition                           |
-| Space + rn  | Rename                                    |
-| Space + ca  | Code action                               |
-| gr          | References                                |
+| grn         | Rename                                    |
+| gra         | Code action                               |
+| grr         | References                                |
+| gri         | Implementation                            |
 | Leader + xx | Show all diagnostic messages              |
 | Leader + ff | Search files                              |
 | Leader + fg | Live grep                                 |
