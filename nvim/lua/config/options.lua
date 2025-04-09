@@ -37,26 +37,3 @@ vim.o.swapfile = false
 
 vim.opt.list = true
 vim.opt.listchars:append('space:⋅')
-
-return {
-  lsp_filetypes = {
-    'c',
-    'cpp',
-    'rust',
-    'python',
-    'lua',
-    'go',
-    'bash',
-    'make',
-    'cmake',
-    'verilog',
-    'markdown',
-    'markdown_inline',
-    'gitignore',
-    'gitcommit',
-    'diff',
-    'json',
-    'toml',
-    'yaml',
-  },
-}

@@ -23,20 +23,19 @@ This is my Neovim configurations
   * nvim-treesitter: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
   * nvim-treesitter-textobjects: [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
   * nvim-surround: [nvim-surround](https://github.com/kylechui/nvim-surround)
-* Fuzzy Finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+* Fuzzy Finder: [snacks.picker](https://github.com/folke/snacks.nvim/blob/main/docs/picker.md)
 * File Explorer: [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 * Bars and Lines:
   * Statusline: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   * Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 * Icon: [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-* Neovim Lua Development: [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 * Git: [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 * Motion: [flash.nvim](https://github.com/folke/flash.nvim)
 * Editing Support:
   * nvim-autopairs: [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
   * nvim-treesitter-context: [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 * Formatting:
-  * Format Runner: [formatter.nvim](https://github.com/mhartington/formatter.nvim)
+  * Format Runner: [conform.nvim](https://github.com/stevearc/conform.nvim)
 * Colorscheme: [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
 ## Key Bindings
